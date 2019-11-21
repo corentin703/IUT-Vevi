@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body{
+background-color: #193159   ;
+font-color: #FFFFFF;
+font-family: 'Indie Flower', cursive;
+}
+
+textarea{
+  width: 80%;
+  padding: 20px 10px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+  display: block;
+  margin: 0 auto;
+  border-radius : 20px;
+}
+
+.Publication{
+	color:white;
+
+}

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+background-color: #193159   ;
+font-color: #FFFFFF;
+font-family: 'Indie Flower', cursive;
+}
+
+
+
+input[type=text], input[type=password], input[type=email], input [type=SearchSome1]{
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+button[type=login], button[type=back]{
+  background-color: #193180;
+  color: white;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+button[type=register], button[type=back]{
+  background-color: #193180;
+  color: white;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+a{
+color: white;
+}
+
+header{
+  width: 110%;
+  display:block;
+  background-image: url("/images/fond.jpg");
+}
+
+
+textarea{
+  width: 80%;
+  padding: 20px 10px;
+  margin: 0px 0;
+  
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 20px;
+}
+
+.Publication{
+  color:white;
+
+}
+.test
+{
+  color:white;
+  text-align: right;
+}
+img{
+  margin:auto;
+
+}
+.Dernier{
+  color : #FFFFFF;
+  margin:auto;
+  text-align :center;
+}
+.NouveauPost{
+  color : #FFFFFF;
+  margin:auto;
+  text-align :center;
+}
+
+.utilisateur{
+  color : #FFFFFF;
+  margin: auto;
+  text-align : right;
+}
+
+.class-color{
+  color: #FFFFFF;
+}
+
+
+button[id = modify] , button[id = remove] {
+  display: block; 
+  background-color: #193180;
+  color: white;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Raleway', cursive;
+  
+  margin: 0 auto;
+  border-radius : 50px;
+
+}
+
+
+button [type=Delete]
+{
+
+  background-color: #C91F1F;
+  color: white;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+
+button[type=submit]  {
+  background-color: #193180;
+  color: white;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+button[id = likeType], button[id=followType], button[id = unTempered], button[id = repost]{
+  background-color : #FFFFFF;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  width: 10%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+button[id = tempered]{
+  color : #FFFFFF;
+  background-color: dimgrey;
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  width: 10%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+button [id = dislike]{
+  background-color : #FFFFFF; 
+  padding: 14px 0px;
+  margin: 50px 0;
+  border: none;
+  width: 10%;
+  font-family: 'Raleway', cursive;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+
+input [type=SearchSome1]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  border-radius : 50px;
+}
+
+
+button [id = SearchSome1]{
+
+  
+  display: block; 
+  background-color: #193180;
+  color: white;
+  padding: 14px 0px;
+  margin: 60px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-family: 'Raleway', cursive;
+  
+  margin: 0 auto;
+  border-radius : 50px;
+
+}
+
+#searchbar
+{
+  position:relative; 
+  width:1040px; 
+  height:auto;
+}
+.formulaire             
+  {
+    display:inline-block;
+    margin-left: 40%;
+    margin-right: auto;
+   width: 50%;
+  }
+.formulaire .champ      
+ {
+  width:600px; height:35px;
+}
+.formulaire .bouton    
+{ 
+    background-image: url(images/searchbar_button.png);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+
+

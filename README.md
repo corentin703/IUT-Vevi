@@ -1,6 +1,8 @@
 # Vevi
 ### Projet de BDD2 (2ème module de Base de Données) de 1ère année de DUT
 
+Ceci est le premier site web avec backend que j'ai réalisé, avec la collaboration de [Dorian VIDAL](https://github.com/DorianVidal).
+
 L'objectif était de développer un clone simplifié de Twitter avec quelques contraintes parmis lesquelles:
 - la présence d'un système d'authentification;
 - on devait pouvoir poster / editer / supprimer des posts;
@@ -22,7 +24,7 @@ Ce projet a servi d'évaluation au module de BDD2.
   <img src="https://raw.githubusercontent.com/corentin703/Vevi/master/ReadMe/Register.png" width=30%"/>
 </div>
 
-### Menu principal: l'icone de l'ampoule s'adapte en fonction de son état (allumée / éteinte)
+### Menu principal: 
 <div>
   <img src="https://raw.githubusercontent.com/corentin703/Vevi/master/ReadMe/Home.png" width=30%"/>
   <img src="https://raw.githubusercontent.com/corentin703/Vevi/master/ReadMe/AboutMe.png" width=30%"/>

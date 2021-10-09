@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  vevi_web:
+    build: ./src
+    ports:
+      - "80:80"
+    environment:
+      MYSQL_ADDON_HOST: db
+      MYSQL_ADDON_PORT: 3306
+      MYSQL_ADDON_DB: vevi
+      MYSQL_ADDON_USER: root
+      MYSQL_ADDON_PASSWORD: mdp1234
+      
+    links:
+      - vevi_db:db
+    
+  vevi_db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mdp1234
+      MYSQL_DATABASE: vevi
+    volumes:
+        - ./database_persist:/var/lib/mysql
+      
+  vevi_phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    links:
+      - vevi_db:db

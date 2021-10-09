@@ -1,1 +1,3 @@
 /.idea
+database_persist/*
+!database_persist/.gitkeep
